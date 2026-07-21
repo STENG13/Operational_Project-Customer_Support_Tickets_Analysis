@@ -7,7 +7,7 @@ output: pdf_document
 
 ```{r}
 # Load the skimr package for data quality and exploratory data analysis
-library(skimr)
+library(skimr) 
 ```
 
 
