@@ -1,8 +1,9 @@
+
 ---
 title: "Customer Support Ticket Analysis"
-author: "Seavchhun Teng"
-date: "2026-07-21"
-output: pdf_document
+output:
+  pdf_document:
+    latex_engine: xelatex
 ---
 
 ```{r}
