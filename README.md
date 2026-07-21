@@ -188,29 +188,6 @@ Skills Demonstrated
 
 ⸻
 
-Repository Structure
-
-├── Data/
-│   ├── Customer_support_data.csv
-│   └── Customer_support_data_cleaned.csv
-│
-├── Power BI/
-│   └── Customer Support Dashboard.pbix
-│
-├── Documentation/
-│   ├── Operational_Reporting_Project_Guide.docx
-│   └── Customer_support_data_feature.docx
-│
-├── Images/
-│   ├── Dashboard_Overview.png
-│   ├── Operational_Performance.png
-│   ├── Agent_Performance.png
-│   └── Customer_Analysis.png
-│
-└── README.md
-
-⸻
-
 Future Improvements
 
 * Add forecasting for ticket volumes.
