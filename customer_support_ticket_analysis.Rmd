@@ -1,0 +1,41 @@
+---
+title: "Customer Support Ticket Analysis"
+author: "Seavchhun Teng"
+date: "2026-07-21"
+output: pdf_document
+---
+
+```{r}
+# Load the skimr package for data quality and exploratory data analysis
+library(skimr)
+```
+
+
+```{r}
+# Read the cleaned data file
+data <- read.csv("Customer_support_data_cleaned.csv")
+```
+
+```{r warning=FALSE}
+# Generate a comprehensive overview of the dataset, including data types,
+# missing values, summary statistics, and value distributions
+skim(data)
+```
+```{r}
+# Count the number of missing values in each column
+colSums(is.na(data))
+```
+```{r}
+# Count the number of duplicate rows in the dataset
+sum(duplicated(data))
+```
+```{r}
+# Count the number of negative response times
+sum(data$response_time_minutes < 0, na.rm = TRUE)
+```
+```{r}
+# Display summary statistics for each variable, including minimum, maximum,
+# quartiles, mean (numeric), and frequency counts (categorical)
+summary(data)
+```
+
