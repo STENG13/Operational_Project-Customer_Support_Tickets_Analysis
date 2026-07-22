@@ -18,6 +18,24 @@ Project Objectives
 
 ⸻
 
+Workflow
+
+Raw Kaggle Dataset
+        ↓
+Power Query (ETL)
+        ↓
+Cleaned Dataset
+        ↓
+Validation in R
+        ↓
+Power BI Data Model
+        ↓
+Interactive Dashboard
+        ↓
+Business Insights
+
+⸻
+
 Dataset
 
 Source: Kaggle (Customer Support Dataset)
