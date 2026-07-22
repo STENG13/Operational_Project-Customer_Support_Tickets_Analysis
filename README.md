@@ -20,6 +20,7 @@ Project Objectives
 
 Workflow
 
+```text
 Raw Kaggle Dataset
         ↓
 Power Query (ETL)
@@ -33,6 +34,7 @@ Power BI Data Model
 Interactive Dashboard
         ↓
 Business Insights
+```
 
 ⸻
 
